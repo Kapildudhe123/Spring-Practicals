@@ -1,0 +1,5 @@
+package com.rays.autowire.bytype;
+
+public class UserService {
+
+}

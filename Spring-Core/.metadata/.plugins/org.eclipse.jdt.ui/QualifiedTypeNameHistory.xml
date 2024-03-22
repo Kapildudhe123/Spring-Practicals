@@ -4,7 +4,11 @@
     <fullyQualifiedTypeName name="org.springframework.beans.factory.xml.XmlBeanFactory"/>
     <fullyQualifiedTypeName name="org.springframework.core.io.ClassPathResource"/>
     <fullyQualifiedTypeName name="com.rays.bean.Person"/>
-    <fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
-    <fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
     <fullyQualifiedTypeName name="com.rays.bean.Emp"/>
+    <fullyQualifiedTypeName name="com.rays.autowire.notype.UserDAO"/>
+    <fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
+    <fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
+    <fullyQualifiedTypeName name="com.rays.byname.UserDAO"/>
+    <fullyQualifiedTypeName name="com.rays.autowire.byconstructor.UserDAO"/>
+    <fullyQualifiedTypeName name="com.rays.autowire.bytype.UserDAO"/>
 </qualifiedTypeNameHistroy>
