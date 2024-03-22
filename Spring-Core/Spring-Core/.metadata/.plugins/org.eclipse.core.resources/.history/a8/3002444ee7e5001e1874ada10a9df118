@@ -1,0 +1,17 @@
+package com.rays.bean;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class TestEmp {
+	
+	public static void main(String[] args) {
+		
+		ApplicationContext context=new ClassPathXmlApplicationContext("Emp");
+		Emp emp=(Emp) context.getBean("Emp");
+		System.out.println(emp.address);
+		System.out.println(emp.firstName);
+		System.out.println(emp.lastName);
+	}
+
+}

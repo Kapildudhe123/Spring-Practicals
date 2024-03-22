@@ -1,0 +1,23 @@
+package com.rays.bean;
+
+import org.springframework.beans.factory.BeanFactory;
+import org.springframework.beans.factory.xml.XmlBeanFactory;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+import org.springframework.core.io.ClassPathResource;
+
+public class TestEmp {
+
+	public static void main(String[] args) {
+
+		// ApplicationContext context=new ClassPathXmlApplicationContext("Emp.xml");
+		BeanFactory factory = new XmlBeanFactory(new ClassPathResource("Emp.xml"));
+		Emp emp = (Emp) factory.getBean("Emp");
+		// Emp emp=(Emp) context.getBean("Emp");
+		System.out.println(emp.getFirstName());
+		System.out.println(emp.getLastName());
+		System.out.println(emp.getAddress());
+
+	}
+
+}

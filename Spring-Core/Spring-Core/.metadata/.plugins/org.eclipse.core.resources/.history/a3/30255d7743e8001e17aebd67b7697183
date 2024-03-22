@@ -1,0 +1,9 @@
+package com.rays.byname;
+
+public class UserDAOImpl  implements UserDAO{
+
+	public void add() {
+		System.out.println("by name");
+	}
+
+}
